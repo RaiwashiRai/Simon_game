@@ -101,7 +101,7 @@ function gameOver(q){
     c = 0;
     count = 0;
     setTimeout(function(){
-        $("h1").html("Press Any Key to start!!");
+        $("h1").html("Tap here to Start");
         $("body").css("backgroundColor", "rgb(2, 2, 95)");
     },1000);
 }
